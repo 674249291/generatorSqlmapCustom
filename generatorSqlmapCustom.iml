@@ -10,7 +10,7 @@
       <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
     </src_description>
   </component>
-  <component name="NewModuleRootManager" inherit-compiler-output="false">
+  <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/bin" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
@@ -63,5 +63,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="jedis-2.9.0" level="project" />
   </component>
 </module>

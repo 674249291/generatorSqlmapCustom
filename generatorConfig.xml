@@ -7,12 +7,12 @@
 	<context id="testTables" targetRuntime="MyBatis3">
 		<commentGenerator>
 			<!-- 是否去除自动生成的注释 true：是 ： false:否 -->
-			<property name="suppressAllComments" value="false" />
+			<property name="suppressAllComments" value="true" />
 		</commentGenerator>
 		<!--数据库连接的信息：驱动类、连接地址、用户名、密码 -->
 		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
-			connectionURL="jdbc:mysql://localhost:3306/taotao" userId="root"
-			password="123456">
+			connectionURL="jdbc:mysql://127.0.0.1:3306/fanglv_tfdd_v_2.0" userId="root"
+			password="root">
 		</jdbcConnection>
 		<!-- <jdbcConnection driverClass="oracle.jdbc.OracleDriver"
 			connectionURL="jdbc:oracle:thin:@127.0.0.1:1521:yycg" 
@@ -48,7 +48,7 @@
 			<property name="enableSubPackages" value="false" />
 		</javaClientGenerator>
 		<!-- 指定数据库表 -->
-		<table tableName="tb_content"></table>
+		<!--<table tableName="tb_content"></table>
 		<table tableName="tb_content_category"></table>
 		<table tableName="tb_item"></table>
 		<table tableName="tb_item_cat"></table>
@@ -58,7 +58,12 @@
 		<table tableName="tb_order"></table>
 		<table tableName="tb_order_item"></table>
 		<table tableName="tb_order_shipping"></table>
-		<table tableName="tb_user"></table>
+		<table tableName="tb_user"></table>-->
+		<!--<table tableName="tf_tag"></table>
+		<table tableName="tf_house_feed"></table>-->
+		<!--<table tableName="tf_jobmanagement"></table>
+		<table tableName="tf_xctemplet"></table>-->
+		<table tableName="tf_xch5page"></table>
 
 		<!-- <table schema="" tableName="sys_user"></table>
 		<table schema="" tableName="sys_role"></table>
